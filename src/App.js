@@ -151,7 +151,7 @@ const [categories, setCategories ] =  useState([
 function searchByKeyword(query){
   console.log('\n\n keyword obtained as ', query);
 
-  Axios.get(`https://gnews.io/api/v3/search?q=${query}&token=9a6674bf15bab6a11b3752f09986d972`)
+  Axios.get(`https://gnews.io/api/v3/search?q=${query}&token=9a6674bf15bab6a11b3752f09986d972&country=in`)
   .then(res =>{
     console.log('Queried news are ', res.data);
     setNews(res.data.articles);
@@ -179,7 +179,7 @@ function categorySelected(category) {
       setNews(res.data.articles);
     })
   }else{
-    Axios.get(`https://gnews.io/api/v3/topics/${selectedCategory}?token=9a6674bf15bab6a11b3752f09986d972`)
+    Axios.get(`https://gnews.io/api/v3/topics/${selectedCategory}?token=9a6674bf15bab6a11b3752f09986d972&country=in`)
     .then(res =>{
       console.log('Queried news are ', res.data);
       setNews(res.data.articles);
