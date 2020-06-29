@@ -13,7 +13,7 @@ export default function Sidebar(props) {
     return (
         <>
             <aside>
-                <ul className="list-group" style={{marginTop:'50px', minWidth:'140px'}}>
+                <ul className="list-group" style={{marginTop:'80px', minWidth:'140px'}}>
                     {props.categories.map( (category,index) => {
                         return(
                             <li key={index} style={{cursor:'pointer'}}
