@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1eedb4b327ee2933dab70c39502f045",
+    "revision": "8da433ffebf8907db15ebc61d12af0b7",
     "url": "/react-newsfeed/index.html"
   },
   {
-    "revision": "0c98845d544b632ff154",
-    "url": "/react-newsfeed/static/css/main.7a2d5c07.chunk.css"
+    "revision": "7943fe0d70535ac5c752",
+    "url": "/react-newsfeed/static/css/main.99211276.chunk.css"
   },
   {
     "revision": "b21fe41776db5a17b08d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-newsfeed/static/js/2.5ed3f99b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c98845d544b632ff154",
+    "revision": "7943fe0d70535ac5c752",
     "url": "/react-newsfeed/static/js/main.d16f6685.chunk.js"
   },
   {
