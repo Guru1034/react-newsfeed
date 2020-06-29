@@ -49,7 +49,7 @@ function App() {
   function searchByKeyword(query){
     console.log('\n\n keyword obtained as ', query);
 
-    Axios.get(`http://newsapi.org/v2/everything?q=${query}&sortBy=popularity&apiKey=c342e8b7541b42c08fd08283274acb79`)
+    Axios.get(`https://newsapi.org/v2/everything?q=${query}&sortBy=popularity&apiKey=c342e8b7541b42c08fd08283274acb79`)
     .then(res =>{
       console.log('Queried news are ', res.data);
       setNews(res.data.articles);
@@ -76,7 +76,7 @@ function App() {
         setNews(res.data.articles);
       })
     }else{
-      Axios.get(`http://newsapi.org/v2/top-headlines?country=in&category=${selectedCategory}&sortBy=popularity&apiKey=c342e8b7541b42c08fd08283274acb79`)
+      Axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=${selectedCategory}&sortBy=popularity&apiKey=c342e8b7541b42c08fd08283274acb79`)
       .then(res =>{
         console.log('Queried news are ', res.data);
         setNews(res.data.articles);
