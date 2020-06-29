@@ -1,6 +1,6 @@
 # NewsFeedReact
 
-A simple react app showing news articles from an external data source.
-Various categories can be selected and keyword can be searched to fetch articles.
-Clicking on news article card will open the news in new tab.
+A simple react app showing news articles fetched from an external public news API.
+Various categories can be selected to see relevant news. Keyword search is also supported.
+Clicking on a news article will open the news in new tab.
 
