@@ -1,10 +1,11 @@
-# NewsFeedReact
+# NewsFeed (React)
 
 Its a react app utilising google news API and react hooks. 
      
 ### Features:
 
 * App shows live news articles fetched from Google News API.
+* Implemented using react hooks.
 * Various categories can be selected to see relevant news. 
 * Keyword search. 
 * Clicking on a news article will open the news in new tab.
